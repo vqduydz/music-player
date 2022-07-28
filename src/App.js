@@ -14,7 +14,11 @@ function App() {
         .then((response) => console.log(response))
         .catch((err) => console.error(err));
 
-    return <div className="App"></div>;
+    return (
+        <div className="App">
+            <h1>Music Player</h1>
+        </div>
+    );
 }
 
 export default App;
