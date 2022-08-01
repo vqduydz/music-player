@@ -1,22 +1,18 @@
 import classNames from 'classnames/bind';
-import styles from './DefaultLayout.module.scss';
-import Header from '../conponent/Header';
+import styles from './LogoOnly.module.scss';
 import Sidebar from '../conponent/Sidebar';
 
 const cx = classNames.bind(styles);
 
-function DefaultLayout({ children }) {
+function LogoOnly({ children }) {
     return (
         <div className={cx('wrapper')}>
             <div>
                 <Sidebar />
-            </div>
-            <div className={cx('container')}>
-                <Header />
                 <div className={cx('content')}>{children}</div>
             </div>
         </div>
     );
 }
 
-export default DefaultLayout;
+export default LogoOnly;
