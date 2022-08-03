@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import styles from './LogoOnly.module.scss';
-import Sidebar from '../conponent/Sidebar';
+import LeftSidebar from '../conponent/LeftSidebar';
 
 const cx = classNames.bind(styles);
 
@@ -8,7 +8,7 @@ function LogoOnly({ children }) {
     return (
         <div className={cx('wrapper')}>
             <div>
-                <Sidebar />
+                <LeftSidebar />
                 <div className={cx('content')}>{children}</div>
             </div>
         </div>
