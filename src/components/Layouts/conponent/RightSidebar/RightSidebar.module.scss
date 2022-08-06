@@ -2,9 +2,9 @@
     width: 240px;
     box-shadow: 2px 0px 0px rgb(0 0 0 / 13%);
     min-height: 1000px;
-    background-color: #000;
+    background-color: var(--background-sidebar);
 }
 .logo {
     width: 100%;
-    height: 70px;
+    height: var(--default-layout-header-height);
 }

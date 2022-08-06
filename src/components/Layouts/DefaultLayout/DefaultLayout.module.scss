@@ -1,6 +1,6 @@
 .wrapper {
     display: flex;
-    background-color: #121212;
+    background-color: var(--background-base);
 }
 
 .container {
@@ -9,4 +9,5 @@
 }
 
 .content {
+    min-height: 100vh;
 }

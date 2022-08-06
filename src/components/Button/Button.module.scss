@@ -1,0 +1,50 @@
+.wrapper {
+    font-size: 1.6rem;
+    font-weight: 700;
+    min-width: 100px;
+    padding: 9px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+    color: var(--text-main);
+    background-color: var(--background-sub);
+    text-align: center;
+    user-select: none;
+
+    + .wrapper {
+        margin-left: 4px;
+    }
+}
+
+.icon + .title,
+.title + .icon {
+    margin-left: 6px;
+}
+
+.primary {
+    background-color: var(--black);
+    border-color: currentColor;
+
+    &:hover {
+        background-color: var(--background-hover);
+    }
+}
+.outline {
+    color: var(--black);
+    background-color: var(--white);
+    border-color: currentColor;
+
+    &:hover {
+        background-color: var(--background-stream);
+    }
+}
+
+.logo {
+    background-color: transparent;
+}
+
+.disable {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
