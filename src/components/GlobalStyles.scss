@@ -11,12 +11,12 @@
     --black: #000;
 
     --text-main: #fff;
-    --text-sub: #a7a7a7;
+    --text-sub: #bebdc0;
 
-    --background-base: #121212;
-    --background-sub: #242424;
+    --background-base: #170f23;
+    --background-sub: #231b2e;
     --background-stream: #a7a7a7;
-    --background-sidebar: #000;
+    --background-sidebar: #231b2e;
     // --background-press: rgba(204, 204, 204, 0.2);
     --background-press: #282828;
     // --background-hover: rgba(204, 204, 204, 0.1);
@@ -60,7 +60,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
-    color: var(--text-main);
+    color: var(--black);
 }
 button {
     cursor: pointer;

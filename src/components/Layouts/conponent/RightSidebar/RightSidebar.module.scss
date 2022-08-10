@@ -1,10 +1,37 @@
 .wrapper {
     width: 240px;
-    box-shadow: 2px 0px 0px rgb(0 0 0 / 13%);
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 13%);
     min-height: 1000px;
-    background-color: var(--background-sidebar);
+    background-color: var(--white);
+    box-sizing: border-box;
 }
 .logo {
     width: 100%;
     height: var(--default-layout-header-height);
+    display: flex;
+    justify-content: center;
+}
+.logo-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 32px);
+    height: 60px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0 12px;
+
+    .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        color: var(--black);
+    }
+    .text {
+        flex: 1;
+        height: 40px;
+        font-size: 20px;
+        color: var(--black);
+        margin-left: 8px;
+    }
 }

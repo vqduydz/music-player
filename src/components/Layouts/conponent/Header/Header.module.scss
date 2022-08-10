@@ -13,8 +13,11 @@
     align-items: center;
     justify-content: space-between;
     color: var(--text-main);
+    position: relative;
 }
-
+.search-container {
+    position: relative;
+}
 .search,
 .search-result {
     width: 540px;
@@ -55,9 +58,6 @@
         border-color: #fff;
     }
 }
-.search-result {
-}
-
 .search-title {
     font-size: 1.4rem;
     font-weight: 600;
